@@ -13,22 +13,15 @@
 
 <style>
     body {
-
         background: url(coder-1869306_1920.jpg);
-
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
-
-    p {
-        font-family: 'Roboto', sans-serif;
-    }
-
-    h2 {
-        font-family: 'Roboto', sans-serif;
-    }
-
 
     .bg-danger {
-        background-color: #d9534fb5!important;
+        background-color: #3f2f3ac2!important;
     }
 
     .dropdown-item:focus, .dropdown-item:hover {
@@ -38,35 +31,46 @@
     }
 
     .dropdown-menu {
-        background: #d9534fb5!important;
+        background: #3f2f3ac2!important;
     }
 
+    .dropdown-item {
+        color: #fff;
+    }
 
     section.col-sm-12 {
         border: 1px solid #fff;
-        background: #0000004f;
+        background: #3f2f3ac2!important;
     }
-
     a {
         display: inline-block;
+        color: #fff;
+    }
+
+    a:focus, a:hover {
+        color: #c1a1b8;
+        text-decoration: underline;
     }
 
     h4 {
         margin-top: 10px;
-
+        color: #fff;
     }
-
     section{
         padding-top: 5%;
         padding-bottom: 5%;
     }
-
     img {
         width: 100%;
-        height: 350px;
-        max-height: 350px;
+        height: 200px;
+        max-height: 200px;
         border: 1px solid;
     }
+
+    div#services {
+        margin-top: 5%;
+    }
+
 </style>
 <nav class="navbar sticky-top navbar-inverse bg-danger navbar-toggleable-sm">
 
@@ -87,7 +91,7 @@
                        id="servicesDropdown" aria-haspopup="true" aria-expanded="false">Hoofdstukken</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="page1.html">Hoofdstuk 1 t/m 4</a>
-                        <a class="dropdown-item" href="page2.html">Hoofdstuk 5 t/m 8</a>
+                        <a class="dropdown-item" href="#">Hoofdstuk 5 t/m 8</a>
                     </div>
                 </div>
 
